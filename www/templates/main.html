@@ -1,0 +1,12 @@
+﻿<ion-view view-title="MAIN">
+  <ion-header-bar class="bar-stable">
+    <h1 class="title">helloDynamicMap</h1>
+  </ion-header-bar>
+  <ion-content style="text-align:center;">
+    <ion-list>
+      <ion-item class="item-remove-animate" ng-repeat="place in places" type="item-text-wrap" ng-href="#/place/{{place.id}}/details">
+        <h2><strong ng-bind="place.name"></strong></h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

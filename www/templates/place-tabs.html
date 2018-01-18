@@ -1,0 +1,13 @@
+﻿<ion-nav-bar class="bar-dark">
+	<ion-nav-buttons side="left">
+		<button class="button button-clear" ng-click="goBack()" > <i class="icon ion-ios-arrow-back"></i> Back </button>
+	</ion-nav-buttons>
+</ion-nav-bar>
+<ion-tabs class="tabs-icon-top tabs-dark" style="margin-top:50px;">
+	<ion-tab title="DETAILS" icon="icon fa fa-align-justify" ui-sref="place.details">
+		<ion-nav-view  name="tab-details" animation="slide-left-right" ></ion-nav-view>
+	</ion-tab>
+	<ion-tab title="MAP" icon="icon fa fa-map" ui-sref="place.map">
+		<ion-nav-view name="tab-map" animation="slide-left-right"></ion-nav-view>
+	</ion-tab>
+</ion-tabs>
