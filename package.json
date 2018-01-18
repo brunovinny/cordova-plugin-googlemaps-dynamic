@@ -7,5 +7,19 @@
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^3.1.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-googlemaps": {
+        "API_KEY_FOR_ANDROID": "AIzaSyAb4cXp1j_iSvvrl2OUt5nepDw3AxmHNDY",
+        "API_KEY_FOR_IOS": "AIzaSyCtW3OWdibug5K_g58sA4akKf5raKbeKlo"
+      }
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~6.1.2"
   }
 }
