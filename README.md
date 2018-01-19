@@ -1,5 +1,5 @@
 # cordova-plugin-googlemaps-dynamic
-Trying to display maps on dynamic view in Ionic Cordova's project.
+Trying to display maps in dynamic view throught Ionic Cordova's project.
 
 > IONIC INFO
 
