@@ -1,7 +1,7 @@
 # cordova-plugin-googlemaps-dynamic
 Trying to display maps on dynamic view in Ionic Cordova's project.
 
->> IONIC INFO
+> IONIC INFO
 
 cli packages: (C:\Users\brunovinny\AppData\Roaming\npm\node_modules)
 
